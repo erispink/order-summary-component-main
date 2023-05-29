@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(../images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+   }
+
+.one {
+    display: block;
+    margin: auto;
+    background-color: white;
+    width: 375px;
+    height: 545px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 15px;
+
+    box-shadow: -1px 37px 58px -11px rgba(150,150,150,0.55);
+             
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.one > img {
+    width: 375px;
+    height: 164px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    margin: 20px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+p {
+    color:  hsl(224, 23%, 55%);
+    margin: 10px;
+}
+
+.box {
+    display: flex;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(223, 47%, 23%);
+    width: 300px;
+    height: 80px;
+    margin: 15px 20px 15px 35px;
+    border-radius: 10px;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.box > p {
+    color: hsl(224, 23%, 55%);
+}
+
+.box > a {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.music {
+    display: flex;
+    margin: 0px 10px;
+    flex-direction: row;
+}
+
+.three {
+    display: flex;
+    line-height: 10px;
+    margin: 0px 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 16px 22px -5px rgba(0, 0, 0, 0.267);
+    
+}
+
+.button:hover {
+    background-color:hsl(252, 100%, 67%);
+    cursor: pointer;
+}
+
+a {
+    margin: 10px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
